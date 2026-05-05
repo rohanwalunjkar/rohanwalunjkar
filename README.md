@@ -1,51 +1,52 @@
 # 👋 Hi, I'm Rohan Walunjkar
 
 🎓 Graduate | 📍 Pune, Maharashtra  
-💻 Software Engineer with hands-on experience in full-stack development, cloud infrastructure, and DevOps practices.
+☁️ Cloud Engineer with hands-on experience in cloud infrastructure, Kubernetes, CI/CD automation, and full-stack application deployment.
 
 ---
 
 ## 👨‍💻 About Me
 
-I am a motivated engineer passionate about building reliable, scalable software and deploying it end-to-end on cloud infrastructure. I enjoy working across the full stack — from designing REST APIs and responsive UIs to containerizing applications, orchestrating them on Kubernetes, and automating deployments with CI/CD pipelines.
+I am a Cloud Engineer passionate about designing, deploying, and managing scalable applications on cloud infrastructure. My expertise spans containerization, Kubernetes orchestration, CI/CD pipeline automation, and Linux system administration. I build and deploy end-to-end solutions — from writing application code to provisioning cloud resources, configuring networking, and automating the entire delivery lifecycle.
 
-Currently focused on cloud-native development, infrastructure-as-code, and modern DevOps workflows.
+Currently focused on cloud-native architectures, infrastructure-as-code, and DevOps best practices.
 
 ---
 
 ## 🛠 Technical Skills
 
-- **Programming Languages:** Python, JavaScript  
+- **Cloud Platforms:** Oracle Cloud Infrastructure (OCI) — Compute, Networking, Security Lists  
+- **Containers & Orchestration:** Docker, Kubernetes (Kind), kubectl, YAML manifests, Pod scaling, Rolling Deployments  
+- **CI/CD:** GitHub Actions (multi-stage pipelines — lint, test, build, deploy, destroy)  
+- **Linux & System Admin:** Oracle Linux 9, systemd services, firewalld, shell scripting, SSH  
+- **Infrastructure-as-Code:** Kubernetes manifests (Deployments, Services, PVCs, Secrets, ConfigMaps)  
+- **Networking:** Port-forwarding, NodePort, ClusterIP, firewall rules, DNS  
+- **Programming:** Python, JavaScript  
 - **Backend:** FastAPI, SQLAlchemy, REST APIs, JWT Authentication  
-- **Frontend:** React 18, Tailwind CSS, Vite, Axios  
-- **Databases:** MySQL, SQL  
-- **Containers & Orchestration:** Docker, Kubernetes (Kind), kubectl, YAML manifests  
-- **Cloud:** Oracle Cloud Infrastructure (OCI), Compute Instances, Networking  
-- **CI/CD:** GitHub Actions (build, test, deploy, destroy workflows)  
-- **Linux & Infra:** Oracle Linux, systemd services, firewalld, shell scripting  
-- **Tools & Platforms:** Git, GitHub, VS Code, Swagger/OpenAPI  
-- **Core Concepts:** OOP, Role-Based Access Control, Infrastructure-as-Code, Rolling Deployments
+- **Frontend:** React 18, Tailwind CSS, Vite  
+- **Databases:** MySQL  
+- **Tools:** Git, GitHub, VS Code, Docker Compose, Swagger/OpenAPI  
 
 ---
 
 ## 📂 Projects
 
-### 🏥 [DocBook — Doctor Appointment Booking System](https://github.com/rohanwalunjkar/doctor-appointment-system)
+### ☁️ [DocBook — Doctor Appointment System (Cloud Deployment)](https://github.com/rohanwalunjkar/doctor-appointment-system)
 
-Full-stack doctor appointment platform built with **FastAPI**, **React 18**, and **MySQL** featuring JWT authentication with token rotation, role-based access control (Patient/Doctor/Admin), and a smart slot-generation engine for automated scheduling. Containerized with **Docker** and deployed on a 3-node **Kubernetes (Kind)** cluster on **Oracle Cloud Infrastructure** (Oracle Linux 9). Automated the entire delivery lifecycle with **GitHub Actions** CI/CD pipelines — linting, testing, Docker builds, SSH-based deployment, and a guarded teardown workflow. Configured **systemd** services for persistent port-forwarding, **firewalld** for network security, and declarative K8s manifests (Deployments, Services, PVCs, Secrets, ConfigMaps) for reproducible infrastructure-as-code.
+Architected and deployed a full-stack application (FastAPI + React + MySQL) on **Oracle Cloud Infrastructure** using a 3-node **Kubernetes (Kind)** cluster on an OCI Compute instance running Oracle Linux 9. Designed **GitHub Actions CI/CD pipelines** for automated linting, testing, Docker image builds, and SSH-based deployment to the cloud instance with a confirmation-guarded teardown workflow. Configured declarative **Kubernetes manifests** (Deployments, Services, PVCs, Secrets, ConfigMaps) for reproducible infrastructure-as-code with rolling updates and multi-replica scaling. Managed networking through **systemd** persistent port-forwarding services and **firewalld** rules for secure external access without requiring an external load balancer or container registry.
 
-**Tech:** Python, FastAPI, React, MySQL, Docker, Kubernetes, GitHub Actions, OCI, Oracle Linux, systemd
+**Tech:** OCI, Kubernetes, Docker, GitHub Actions, Oracle Linux, systemd, firewalld, Python, FastAPI, React, MySQL
 
 ---
 
 ## 📚 Learning & Interests
 
-- Cloud-Native Application Development  
-- Kubernetes & Container Orchestration  
-- CI/CD Pipeline Design & Automation  
-- Infrastructure-as-Code & GitOps  
-- Data Structures and Algorithms  
-- Open-source Contributions  
+- Multi-cloud Infrastructure (OCI, AWS, Azure)  
+- Kubernetes & Container Orchestration at Scale  
+- Terraform & Infrastructure-as-Code  
+- CI/CD Pipeline Design & GitOps  
+- Monitoring, Logging & Observability  
+- Site Reliability Engineering (SRE) Practices  
 
 ---
 
